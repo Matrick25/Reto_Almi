@@ -1,0 +1,107 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a2a90; /* Fondo claro para toda la página */
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #142ED5; /* Fondo blanco para el contenido */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Colores de la marca */
+h1, h2 {
+    color: #c581ff; /* Color de los títulos con el color principal */
+}
+
+p, li {
+    color: #ffffff; /* Color oscuro para el texto */
+}
+
+/* Estilo para el encabezado principal */
+h1, h2, p {
+    text-align: center;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1s ease-out forwards;
+}
+
+/* Estilo para los enlaces */
+a {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #c581ff; /* Enlaces con el color secundario */
+    font-weight: bold;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 2s ease-out forwards;
+}
+
+/* Efecto hover para los enlaces */
+a:hover {
+    text-decoration: underline;
+}
+
+/* Animación de desvanecimiento y desplazamiento */
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Efecto de animación en los elementos con la clase .fade-in */
+.fade-in {
+    opacity: 0;
+    animation: fadeInUp 2s ease-out forwards;
+}
+
+/* Retardo de animación para cada elemento */
+.fade-in:nth-child(1) {
+    animation-delay: 0.2s;
+}
+
+.fade-in:nth-child(2) {
+    animation-delay: 0.4s;
+}
+
+.fade-in:nth-child(3) {
+    animation-delay: 0.6s;
+}
+
+.fade-in:nth-child(4) {
+    animation-delay: 0.8s;
+}
+
+/* Estilos específicos para la imagen del logo */
+.logo {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    opacity: 0;
+    animation: fadeInUp 1s ease-out forwards;
+    animation-delay: 1s;
+}
+
+/* Fondo del contenedor con un color de la marca */
+.about-container {
+    background-color: #c581ff; /* Fondo con el color principal */
+    color: white; /* Texto blanco para contraste */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
