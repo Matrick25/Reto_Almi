@@ -14,6 +14,7 @@ Este repositorio contiene los siguientes componentes clave:
 - **Explicacion de cada robot**: Algoritmos de control para la navegación y ejecución de tareas.
 - **Explicaciones sobre la implementación y cómo utilizar los sistemas**
 - **Acceso a diferentes versiones de código de cada robot**: Diferentes fases de cada robot y versiones con modificaciones varias.
+- **Acceso a diferentes códigos externos ademas de los robots**: Codigos que los de matrick usamos para el desarrollo de nuestra empresa.
 
 ## Instalación
 
