@@ -3,41 +3,139 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Seguridad y salud</title>
+    <title>Seguridad y Salud</title>
     <style>
         body {
             font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f9;
             margin: 0;
             padding: 0;
-            background-color: #f0f8ff;
-            color: #00008b;
+            color: #333;
         }
+
         header {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
             text-align: center;
-            padding: 50px;
         }
-        nav {
+
+        .header-titulo {
+            margin: 0;
+            font-size: 2em;
+        }
+
+        .content {
+            padding: 20px;
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .riegos {
+            color: #333;
+            font-size: 1.8em;
+            margin-bottom: 20px;
+        }
+
+        .riegos-texto {
+            font-size: 1.1em;
+            margin-bottom: 15px;
+            color: #555;
+        }
+
+        .lista {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+
+        .contenido-lista {
+            font-size: 1.1em;
+            color: #555;
+        }
+
+        /* Estilos para el pie de página */
+        footer {
+            background-color: #333;
+            color: white;
             text-align: center;
-            margin: 20px;
+            padding: 10px 0;
+            margin-top: 20px;
         }
-        nav a {
-            margin: 0 15px;
-            text-decoration: none;
-            color: #00008b;
+
+        .footer__text {
+            margin: 0;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Seguridad y salud</h1>
+    <header class="header">
+        <h1 class="header-titulo">Seguridad y Salud en la Robótica</h1>
     </header>
-    <nav>
-        <a href="index.html">Volver al inicio</a>
-        <a href="nosotros.html">Información sobre nosotros</a>
-        <a href="quehacemos.html">Qué hacemos</a>
-    </nav>
-    <section>
-        <p>Aquí encontrarás información sobre nuestras políticas de seguridad y salud.</p>
+
+    <section class="content">
+        <h2 class="riegos">Importancia de la Seguridad en el Trabajo de Robótica</h2>
+        <p class="riegos-texto">En el campo de la robótica, la seguridad y salud en el trabajo es muy importante debido a la constante interacción entre personas y máquinas. Los riesgos pueden dividirse en varias categorías, cada una con sus propios desafíos y soluciones.</p>
+        
+        <h2 class="riegos">Riesgos Físicos</h2>
+        <p class="riegos-texto">Los riesgos físicos, como el ruido, las vibraciones, las radiaciones y las temperaturas extremas, son comunes en lugares donde se fabrican y ensamblan robots. Para protegerse de estos riesgos, es esencial:</p>
+        <ul class="lista">
+            <li class="contenido-lista">Usar protección auditiva.</li>
+            <li class="contenido-lista">Emplear herramientas que vibren menos.</li>
+            <li class="contenido-lista">Utilizar equipos de protección contra radiaciones.</li>
+            <li class="contenido-lista">Controlar el ambiente adecuadamente, asegurando temperaturas y condiciones seguras.</li>
+        </ul>
+
+        <h2 class="riegos">Riesgos Químicos y Contaminantes</h2>
+        <p class="riegos-texto">Los riesgos químicos y los contaminantes en el aire también son peligrosos. Las medidas importantes incluyen:</p>
+        <ul class="lista">
+            <li class="contenido-lista">Uso de equipos de protección personal (EPP).</li>
+            <li class="contenido-lista">Asegurar una buena ventilación en los espacios de trabajo.</li>
+        </ul>
+
+        <h2 class="riegos">Riesgos Biológicos</h2>
+        <p class="riegos-texto">En cuanto a los riesgos biológicos, como los microorganismos y los alérgenos, es crucial:</p>
+        <ul class="contenido-lista">
+            <li class="contenido-lista">Una buena gestión de la carga de trabajo.</li>
+            <li class="contenido-lista">Políticas claras contra el acoso y la violencia.</li>
+        </ul>
+
+        <h2 class="riegos">Prevención de Riesgos en Robótica</h2>
+        <p class="riegos-texto">Para prevenir riesgos laborales en robótica, es necesario:</p>
+        <ul class="content__list">
+            <li class="contenido-lista">Identificar y analizar los peligros.</li>
+            <li class="contenido-lista">Implementar medidas de control eficaces.</li>
+            <li class="contenido-lista">Capacitar continuamente a los empleados.</li>
+        </ul>
+
+        <h2 class="riegos">Sostenibilidad y Seguridad</h2>
+        <p class="riegos-texto">Además, el uso de alternativas ecológicas, como materiales sostenibles y prácticas de eficiencia energética, no solo ayuda al medio ambiente, sino que también mejora la seguridad y el bienestar en el lugar de trabajo.</p>
+
+        <h2 class="riegos">Cultura de Seguridad y Sostenibilidad</h2>
+        <p class="riegos-texto">La educación y concienciación sobre prácticas sostenibles y el uso de tecnología verde, como software de gestión de energía y equipos de oficina eficientes, son vitales para promover una cultura de seguridad y sostenibilidad en la robótica.</p>
     </section>
+    <div>
+        <nav class="b">
+            <ul>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="quehacemos.html">Qué hacemos</a></li>
+                <li><a href="seguridad.html">Seguridad y Salud</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div>
+        <nav>
+            <ul class="i">
+                <li><a href="español.html">ES</a></li>
+                <li>|</li>
+                <li><a href="Euskera.html">EU</a></li>
+                <li>|</li>
+                <li><a href="ingles.html">EN</a></li>
+            </ul>
+        </nav>
+    </div>
 </body>
 </html>

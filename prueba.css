@@ -12,22 +12,11 @@ body {
 
 h1 {
     color: #ffffff;
-    font-size: 2.5rem;
-    margin-top: -10cm;
-    }
-
-
-.header {
+    left: 43%;
+    font-size: 50px;
+    margin-top: -10.25cm;
     position: absolute;
-    top: 0;
-    right: 0;
-    padding: 20px;
-    background-color: rgb(34, 21, 185);
-    color: rgb(255, 255, 255);
-    text-align: center;
-}
-
-
+    }
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -35,11 +24,9 @@ nav ul {
     display: flex;
     gap: 20px;
 }
-
 nav ul li {
     display: inline;
 }
-
 nav ul li a {
     color: white;
     text-decoration: none;
@@ -99,9 +86,31 @@ footer {
     padding: 10px;
     margin-top: 50px;
 }
-
-
-
-
+.idiomas {
+    top: 25px;
+    left: 25px;
+    position: fixed;
+    font-size: 20px;
+    color: #fff;  
+  }
+img {
+    position: fixed;
+}
+.header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 25px;
+    height: 25px;
+    width: 100%;
+    background-color: rgb(34, 21, 185);
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.barra {
+   
+    right: 25px;
+    position: fixed;
+}
 
 
