@@ -50,8 +50,6 @@ section {
     max-width: 1000px;
     margin: 50px auto;
     padding: 20px;
-    background-color: white;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
 }
 .nos {
@@ -70,6 +68,7 @@ p {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
+    
 }
 .miembros-del-equipo h3 {
     font-size: 22px;
@@ -110,7 +109,120 @@ img {
 .barra {
    
     right: 25px;
-    position: fixed;
+    position: absolute;
 }
 
+.barra1 {
+    color: white;
+    text-decoration: none;
+    
+}
+.principal {
+    right: 25px;
+    margin-top: -10cm;
+    position: fixed;
+}
+.btn-donate {
+    --clr-font-main: #c581ff;
+    --btn-bg-1: #c581ff;
+    --btn-bg-2: #9f31ff;
+    --btn-bg-color: #142e88;
+    --radii: 0.5em;
+    cursor: pointer;
+    padding: 0.5em 1em;  /* Reduce el padding */
+    min-width: 100px;    /* Reduce el ancho mínimo */
+    min-height: 36px;    /* Reduce la altura mínima */
+    font-size: var(--size, 0.875rem);  /* Reduce el tamaño de fuente */
+    font-weight: 500;
+    transition: 0.8s;
+    background-size: 280% auto;
+    background-image: linear-gradient(
+      325deg,
+      var(--btn-bg-2) 0%,
+      var(--btn-bg-1) 55%,
+      var(--btn-bg-2) 90%
+    );
+    border: none;
+    border-radius: var(--radii);
+    color: var(--btn-bg-color);
+    box-shadow:
+      0px 0px 20px #243fa1;
+  }
+  
+  .btn-donate:hover {
+    background-position: right top;
+  }
+  
+  .btn-donate:is(:focus, :focus-visible, :active) {
+    outline: none;
+    box-shadow:
+      0 0 0 3px var(--btn-bg-color),
+      0 0 0 6px var(--btn-bg-2);
+  }
+  
+  @media (prefers-reduced-motion: reduce) {
+    .btn-donate {
+      transition: linear;
+    }
+  }
 
+.parrafo {
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    margin: 25px;
+}
+.tituloMAT {
+    color: #ffffff;
+    top: 20px;
+    left: 39%;
+    position: fixed;
+    font-size: 35px;
+}
+.tituloESPNOS {
+    color: #ffffff;
+    top: 20px;
+    left: 39%;
+    position: fixed;
+    font-size: 35px;
+}
+.tituloGU {
+    color: #ffffff;
+    top: 20px;
+    left: 48%;
+    position: fixed;
+    font-size: 35px;
+}
+.tituloAUS {
+    color: #ffffff;
+    top: 20px;
+    left: 39%;
+    position: fixed;
+    font-size: 35px;
+}
+.tituloNOS {
+    color: #ffffff;
+    top: 20px;
+    left: 44%;
+    position: fixed;
+    font-size: 35px;
+}
+.tituloQH {
+    color: #ffffff;
+    top: 20px;
+    left: 39%;
+    position: fixed;
+    font-size: 35px;
+}
+.tituloS {
+    color: #ffffff;
+    top: 20px;
+    left: 39%;
+    position: fixed;
+    font-size: 35px;
+}
+.centrar {
+    top: 63%;
+    right: 48%;
+    position: absolute;
+}
